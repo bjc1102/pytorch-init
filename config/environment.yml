@@ -1,0 +1,45 @@
+name: pytorch-ai
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - jupyter
+  - notebook
+  - ipykernel
+  - numpy
+  - pandas
+  - matplotlib
+  - scikit-learn
+  - pytorch::pytorch>=2.0.0
+  - pytorch::torchvision
+  - pytorch::torchaudio
+  - pip:
+    - transformers==4.44.2
+    - datasets
+    - tokenizers
+    - sentencepiece
+    - protobuf
+    - accelerate
+    - peft==0.13.0
+    - bitsandbytes
+    - einops
+    - langchain
+    - langchain-openai
+    - langchain-community
+    - openai
+    - faiss-gpu==1.7.2
+    - faiss-cpu
+    - FlagEmbedding==1.2.11
+    - sentence-transformers
+    - vllm
+    - LM_Cocktail==0.0.4
+    - torchtext
+    - seaborn
+    - tqdm
+    - requests
+    - beautifulsoup4
+    - lxml
